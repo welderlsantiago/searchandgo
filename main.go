@@ -1,11 +1,7 @@
 package main
 
-import "fmt"
-
-func hello(nome string) {
-	fmt.Println("Olá,", nome, "!")
-}
+import "github.com/welderlsantiago/searchandgo/router"
 
 func main() {
-	hello("Adalberto Abelardo Pereira")
+	router.Initialize()
 }
